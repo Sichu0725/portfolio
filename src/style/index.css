@@ -133,3 +133,17 @@ li:hover {
     width: 46%;
     margin: 60px auto;
 }
+.contact {
+    margin-top: 200px;
+    text-align: center;
+}
+.github, .instagram {
+    min-width: 400px;
+    display: inline-block;
+    font-size: 10em;
+    cursor: pointer;
+    margin:  auto 100px;
+}
+:is(.github, .instagram) p {
+    font-size: 0.2em;
+}

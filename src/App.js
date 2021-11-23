@@ -19,18 +19,18 @@ function App() {
       </div>
       <div className="nav">
           <ul>
-              <Link to="/"><li><AiFillHome/> HOME</li></Link>
+              <Link to="/portfolio"><li><AiFillHome/> HOME</li></Link>
               <Link to="/about"><li><BsFillPersonLinesFill/> ABOUT ME</li></Link>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
               <Link to="/award&license"><li><RiAwardFill/> AWARDS & LICENSE</li></Link>
-              <Link to="portfolio"><li><MdLabelImportant/> PORTFOLIO</li></Link>
+              <Link to="/port-folio"><li><MdLabelImportant/> PORTFOLIO</li></Link>
               <Link to="/contact"><li><IoShareSocial/> MY SNS</li></Link>
           </ul>
       </div>
       <div className='container'>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/port-folio" component={Portfolio} />
         <Route exact path="/award&license" component={Award} />
       </div>
     </div>
