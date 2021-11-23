@@ -1,19 +1,22 @@
 import Dorimap from "./portfolio/dorimap"
 import GhChatbot from "./portfolio/ghChatbot"
 import Ymanager from "./portfolio/Ymanager"
+import Bookmark from "./portfolio/bookmark"
+import We25 from "./portfolio/we25"
+import Whoseupso from "./portfolio/whoseupso"
 
 export default function Port_contents(props) {
     if (props.page === 1) {
         return (
             <div>
-                <Dorimap/>
+                <Bookmark/>
             </div>
         )
     }
     else if (props.page === 2) {
         return (
             <div>
-                fdsdf
+                <Dorimap/>
             </div>
         )
     }
@@ -27,7 +30,7 @@ export default function Port_contents(props) {
     else if (props.page === 4) {
         return (
             <div>
-                fdsdf
+                <We25/>
             </div>
         )
     }
@@ -41,7 +44,7 @@ export default function Port_contents(props) {
     else if (props.page === 6) {
         return (
             <div>
-                fdsdf
+                <Whoseupso/>
             </div>
         )
     }

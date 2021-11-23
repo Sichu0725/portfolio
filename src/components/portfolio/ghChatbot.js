@@ -1,10 +1,8 @@
-import img from '../../assets/chatbot.png'
-
 export default function ghChatbot() {
     return (
         <div>
             <div className='ymanager'>
-            <img src={img} alt='영매니저 TODO 페이지' width="490px" />
+            <iframe src="https://chat.gbsw.hs.kr/" width="490px" height="760px" />
             <p>
                 <span className='port_h'>프로젝트 이름 :</span> 
                 경소고 챗봇(CHATBOT)<br/><br/>
@@ -15,7 +13,10 @@ export default function ghChatbot() {
                 학교 홍보용 챗봇 서비스이다.<br/><br/>
 
                 <span className='port_h'>기능 :</span> 
-                질문 답해주기(ANSWER 기능)
+                질문 답해주기(ANSWER 기능)<br/><br/>
+
+                <span className='port_h'>주소 : </span>
+                <a href='https://chat.gbsw.hs.kr/'>https://chat.gbsw.hs.kr/</a>
             </p>
         </div>
         </div>

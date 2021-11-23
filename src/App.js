@@ -8,6 +8,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
+import Award from './pages/award';
 import './style/index.css'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <ul>
               <Link to="/"><li><AiFillHome/> HOME</li></Link>
               <Link to="/about"><li><BsFillPersonLinesFill/> ABOUT ME</li></Link>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-              <li><RiAwardFill/> AWARDS</li>
+              <Link to="/award&license"><li><RiAwardFill/> AWARDS & LICENSE</li></Link>
               <Link to="portfolio"><li><MdLabelImportant/> PORTFOLIO</li></Link>
               <Link to="/contact"><li><IoShareSocial/> MY SNS</li></Link>
           </ul>
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/award&license" component={Award} />
       </div>
     </div>
   );
