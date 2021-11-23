@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 body {
     margin: 0;
+}
+a:visited, a:link, a:active, a:hover {
+    color: black;
+    text-decoration: none;
+}
+.header {
+    background-color: rgb(49, 145, 255);
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.nav {
+    width: 15%;
+    min-height: 946px;
+    border-right: 2px solid rgb(49, 145, 255);
+    display: inline-block;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 2rem;
+    font-size: 1.3em;
+}
+li:hover {
+    background-color: #ccc;
+}
+.container {
+    display: inline-block;
+    width: 84.89%;
+    height: 946px;
+    vertical-align: top;
+}
+.home {
+    margin: 6% auto;
+    width: 80em;
+    text-align: center;
+    background: linear-gradient(to right top, #163486, #9efff2);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.home p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.3em;
+    
+}
+.port-list {
+    width: 300px;
+    border-right: rgb(49, 145, 255) 1px solid;
+    height: 946px;
+    overflow-y: scroll;
+}
+.port-list::-webkit-scrollbar{
+    width: 6px;
+}
+
+/* 스크롤바 막대 설정*/
+.port-list::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: rgba(33,133,133,1);
+    border-radius: 10px;  
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.port-list::-webkit-scrollbar-track{
+    background-color: rgba(33,133,133,0.33);
 }
